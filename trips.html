@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>White Water Rafting | Trips</title>
+  <meta name="description" content="Browse our rafting trips: durations, prices, and difficulty levels. Book your next adventure.">
+  <link rel="stylesheet" href="rafting.css">
+</head>
+<body>
+  
+<header>
+  <div class="header-inner">
+    <a href="index.html" aria-label="Go to Home">
+      <img src="images/logo.svg" alt="White Water Rafting Logo" class="logo">
+    </a>
+    <nav aria-label="Primary">
+      <ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="trips.html" class="active">Trips</a></li><li><a href="contact.html">Contact</a></li></ul>
+    </nav>
+  </div>
+</header>
+
+  <main>
+    <section class="container">
+      <h1>Our Trips</h1>
+      <div class="grid grid-3 trips-grid mt-2">
+        <article class="trip card">
+          <img src="images/trip1.svg" alt="Snake River">
+          <h3>Snake River Rapids</h3>
+          <p>Scenic Class II–III rapids, perfect for families and beginners. 3 hours.</p>
+        </article>
+        <article class="trip card">
+          <img src="images/trip2.svg" alt="Salmon River">
+          <h3>Salmon River Sprint</h3>
+          <p>Intermediate Class III–IV sections with stunning canyon views. Half day.</p>
+        </article>
+        <article class="trip card">
+          <img src="images/trip3.svg" alt="Bear River">
+          <h3>Bear River Blast</h3>
+          <p>Fast, technical lines for confident paddlers. Class IV. 2 hours.</p>
+        </article>
+      </div>
+
+      <h2 class="mt-3">Trip Summary</h2>
+      <div class="card mt-1">
+        <table class="trip-table" aria-describedby="trip-help">
+          <thead>
+            <tr>
+              <th scope="col">Trip</th>
+              <th scope="col">Duration</th>
+              <th scope="col">Difficulty</th>
+              <th scope="col">Price (USD)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Snake River Rapids</td><td>3 hours</td><td>Class II–III</td><td>$120</td></tr>
+            <tr><td>Salmon River Sprint</td><td>Half Day</td><td>Class III–IV</td><td>$240</td></tr>
+            <tr><td>Bear River Blast</td><td>2 hours</td><td>Class IV</td><td>$150</td></tr>
+          </tbody>
+        </table>
+        <p id="trip-help" class="small mt-1">All trips include safety gear and a pre-trip briefing.</p>
+      </div>
+
+      <div class="center mt-3">
+        <a class="button" href="contact.html">Book Your Trip</a>
+      </div>
+    </section>
+  </main>
+  
+<footer>
+  <div class="container">
+    <p class="small">&copy; 2025 White Water Rafting — All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>

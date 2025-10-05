@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>White Water Rafting | Home</title>
+  <meta name="description" content="Experience thrilling and safe white water rafting adventures. Book guided trips, join our newsletter, and explore our most popular rivers.">
+  <link rel="stylesheet" href="rafting.css">
+</head>
+<body>
+  
+<header>
+  <div class="header-inner">
+    <a href="index.html" aria-label="Go to Home">
+      <img src="images/logo.svg" alt="White Water Rafting Logo" class="logo">
+    </a>
+    <nav aria-label="Primary">
+      <ul><li><a href="index.html" class="active">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="trips.html">Trips</a></li><li><a href="contact.html">Contact</a></li></ul>
+    </nav>
+  </div>
+</header>
+
+
+  <main>
+    <section class="hero">
+      <img src="images/hero.svg" alt="Rafting group on a scenic river">
+      <div class="hero-text">
+        <div class="hero-badge">
+          <h1>Experience the Thrill of the Rapids!</h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mt-2 card newsletter" aria-labelledby="nl-title">
+      <h2 id="nl-title">Join Our Adventure Newsletter</h2>
+      <form action="thankyou.html" method="get" class="mt-1" aria-describedby="nl-help">
+        <div>
+          <label for="fullname">Name</label>
+          <input type="text" id="fullname" name="fullname" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="full">
+          <button type="submit">Sign Up Now</button>
+        </div>
+        <p id="nl-help" class="small">We respect your privacy. Unsubscribe anytime.</p>
+      </form>
+    </section>
+
+    <section class="container mt-2 home-grid">
+      <div class="grid grid-2">
+        <article class="item card">
+          <img src="images/trip1.svg" alt="Snake River rafting">
+          <h3>Family-Friendly Rafting</h3>
+          <p>Gentle rapids with expert guides—perfect for first-timers and family groups.</p>
+        </article>
+        <article class="item card">
+          <img src="images/trip2.svg" alt="Salmon River rafting">
+          <h3>Extreme Adventures</h3>
+          <p>Take on challenging whitewater runs designed for seasoned thrill-seekers.</p>
+        </article>
+      </div>
+      <div class="center mt-2">
+        <a href="trips.html" class="button">Explore Our Trips</a>
+      </div>
+    </section>
+  </main>
+
+  
+<footer>
+  <div class="container">
+    <p class="small">&copy; 2025 White Water Rafting — All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>

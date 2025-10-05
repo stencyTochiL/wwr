@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>White Water Rafting | Contact Us</title>
+  <meta name="description" content="Contact White Water Rafting for questions about trips, reservations, or our website.">
+  <link rel="stylesheet" href="rafting.css">
+</head>
+<body>
+  
+<header>
+  <div class="header-inner">
+    <a href="index.html" aria-label="Go to Home">
+      <img src="images/logo.svg" alt="White Water Rafting Logo" class="logo">
+    </a>
+    <nav aria-label="Primary">
+      <ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="trips.html">Trips</a></li><li><a href="contact.html" class="active">Contact</a></li></ul>
+    </nav>
+  </div>
+</header>
+
+  <main class="container">
+    <h1>Contact Us</h1>
+    <div class="contact-sections">
+      <section class="card">
+        <h2>Company Information</h2>
+        <div class="company-details">
+          <p><strong>Address:</strong> 123 River Bend Road, Boise, ID 83702</p>
+          <p><strong>Phone:</strong> +1 (208) 555-0112</p>
+          <p><strong>Email:</strong> info@whitewaterrafting.com</p>
+        </div>
+        <div class="mt-2">
+          <h3>Find Us</h3>
+          <!-- Replace with an actual Google Maps iframe for the real site -->
+          <img src="images/map-placeholder.svg" alt="Map location placeholder">
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Our Team</h2>
+        <div class="contact-team mt-1">
+          <figure>
+            <img src="images/guide1.svg" alt="John Rivers - Lead Guide">
+            <figcaption>John Rivers — Lead Guide</figcaption>
+          </figure>
+          <figure>
+            <img src="images/guide2.svg" alt="Sarah Brooks - Safety Coordinator">
+            <figcaption>Sarah Brooks — Safety Coordinator</figcaption>
+          </figure>
+          <figure>
+            <img src="images/guide3.svg" alt="Mike Allen - Reservations Manager">
+            <figcaption>Mike Allen — Reservations Manager</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="card contact-form">
+        <h2>Send Us a Message</h2>
+        <form action="thankyou.html" method="post">
+          <div>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <fieldset class="purpose-group">
+            <legend>Purpose of Your Message</legend>
+            <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+            <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+            <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+          </fieldset>
+
+          <div>
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+
+          <label class="mt-1">
+            <input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter
+          </label>
+
+          <div class="mt-1">
+            <button type="submit">Send Message</button>
+          </div>
+        </form>
+      </section>
+    </div>
+  </main>
+  
+<footer>
+  <div class="container">
+    <p class="small">&copy; 2025 White Water Rafting — All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
